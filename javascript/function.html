@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <script type="text/JavaScript">
+    //no passing parameters and no return value
+    function info()
+    {
+        alert("welcome")
+    }
+//passing parameter but no return type
+    function add(a,b)
+    {
+        var sum=a+b;
+        alert("sum is"+sum);
+    }
+    //PASSING PARAMETERS AND RETURN VALUE
+    function sayHello(name)
+    {
+        return "welcome user"+name;
+        
+    }
+    </script>
+    </head>
+    <body>
+    <script>
+
+    info();
+    add(200,300);
+    add(2,4);
+    var msg=sayHello("laxmi");
+    alert("In main script"+msg);
+    </script>
+   
+</body>
+
+</html>
